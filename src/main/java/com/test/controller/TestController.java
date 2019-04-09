@@ -10,4 +10,9 @@ public class TestController {
 	public String main() {
 		return "/index.jsp";
 	}
+	
+	@RequestMapping("/2")
+	public String main2() {
+		return "/index.jsp";
+	}
 }
